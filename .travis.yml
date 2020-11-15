@@ -1,0 +1,32 @@
+language: node_js
+
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+
+node_js:
+  - '12'
+
+git:
+  depth: 3
+
+script:
+  - yarn test
+
+notifications:
+  email:
+    reciepients:
+      - isralejo21@hotmail.com
+    on_success: always
+    on_failure: always
+
+deploy:
+  provide: heroku
+  skip-cleanup: true
+  keep-history: true
+  api_key: 7894912e-6da2-4836-b314-5354b6d8b575
+  app: platzi-store-backend-iaortiz
+  on:
+    repo: iaortiz/platzi-store-backend
+
