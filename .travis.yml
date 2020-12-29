@@ -25,7 +25,8 @@ deploy:
   provide: heroku
   skip-cleanup: true
   keep-history: true
-  api_key: 7894912e-6da2-4836-b314-5354b6d8b575
+  api_key:
+    secure: "b4rEi0rptA4JNXfr1t3je8cARhX3v/txGdHOyWcIwDDwoyYSA28ibmRwKCnTn6mOfQlFkuMOPYJl/hLS1s9Ci0kLpChoHme3m524A3TFTdGC9z0XUPof8wa+BDmGFWb5rWJxgGB/jt/+iReD8276Xws72InBtT22f/gXzrRvuJt+qBdLlY4RY4eivPm9mF5fcsUhZ7TiePb6WxjtMbAg0rXrr3w3OE5yzV9hVzTyC0uC64wayRiu6bQDGgy68skjuButaKwh91P+pSDvlFoRVTQhsNjTJBoFAt+kDN5/e+StrWy4GXp2U4MzcLA3MdbZ8PZTznRqBdGMuZnlTuSX2dJ9WQV1M7hvenjKQvSalIN9s9x23YEDJ8W0aVHDulr5v8k5ZPSwoYQLp3BXjy/Glq57iJiaR6DFWzafJ5ZYfTrK/UQUJYErH2c40Vn3WTOhWEI6S/2eSlw87/ikk0m1SU7dmLUgm1A3G3qNYQcu0kGH/5V9Laj6Cu2xWmhPA7mM+qjc2r7JUFlH3r3cBwW59IMOjTG+CLqcg6+s9QlXLVx2IcqyQgkCgyoZV1IHiexPuLa4zBqnr8rCLalIHrZMmUORymyu1LIYWxIhAutJcVNM+hJL19RMhKFoQU0zi+DuLR2rCAmvtTW44ldJjZHesyUzjp1tJTBuzfTC2jFrKnw="
   app: platzi-store-backend-iaortiz
   on:
     repo: iaortiz/platzi-store-backend
